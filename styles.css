@@ -153,3 +153,16 @@ some facts
     margin-top:70px ;
     
 }
+
+/* ----------
+our sponsors
+------------- */
+.section-4{
+  padding: 71px;
+  text-align: center;
+}
+.sponsors{
+    display: flex;
+    gap: 150px;
+    margin-top: 50px ;
+}
