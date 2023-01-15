@@ -8,10 +8,14 @@
     <!-- Style-sheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <!-- header and navigation -->
-    <header class="header">
-        <nav class="nav-title">
+    <!---------------------
+      header and navigation 
+    ----------------------->
+    <header>
+        <div class="header-container">
+          <nav class="nav-title">
             <h2>G3 Architects</h2>
             <ul>
                 <li>Home</li>
@@ -19,46 +23,91 @@
                 <li>Contact Us</li>
                 <li>Login</li>
             </ul>
-
         </nav>
-        <!-- header-banner -->
+
+
+        <!-------------------
+            header-banner  
+          ------------------->
+
         <div class="banner">
             <div class="banner-info">
-                <h1 class="banner-title">Brand New 
-                    
-                    </h1>
+                    <h1 class="banner-title">Brand New </h1>
                     <h1 class="banner-title 2" >Group of Architects </h1>
                     <p class="banner-discription">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
-
-                   
-            </div>
-            <div>
-               <button class="btn"> Explore More</button>
-            </div>
-               <div class="img">
-                <img src="images/banner.png" alt="">
             </div>
         </div>
+
+        <div class="header-btn-container">
+          <button class="primary-btn"> Explore More</button>
+       </div>
+       <img class="banner-img" src="images/banner.png" alt="" >
+  
+
+        </div>
+        
     </header>
     <main>
-        <!-- Quick list section -->
+        <!----------------------
+          feature section 
+        ------------------------->
         <section>
             <div class="section-1">
-                <div>
-                    <h1><span class="text-primary-1">Quick list</span> <span class="text-primary-2">of Our</span> <span class="text-primary-3">Features</span></h1>
+
+              <div class="images">
+                <img src="images/team1.png" alt="">
+                <img src="images/team2.png" alt="">
+                <img src="images/team3.png" alt="">
+                <img src="images/team4.png" alt="">
+              </div>
+
+                <div class="feature-container">
+                    <div class="feature-title">
+                      <h1 ><span class="text-primary-1">Quick list</span> 
+                        <span class="text-primary-2">of Our</span>
+                        <h1 class="text-primary-3"> Features </h1>
+                    </div>
+                    
+                       
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
-                    <button class="btn">Explore More</button>
+                    <button class="primary-btn">Explore More</button>
                 </div>
                 
-                <div class="images">
-                    
-                    <img src="images/team1.png" alt="">
-                    <img src="images/team2.png" alt="">
-                    <img src="images/team3.png" alt="">
-                    <img src="images/team4.png" alt="">
-                </div>
+            </div>
+        </section>
+        <!-- some facts -->
+        <section class="section-3">
+            <div>
+                <h2>Some Facts</h2>
+                <p class="some-facts-discript">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+            </div>
+            <div class="icons">
+                <div>
+                    <img src="images/icons/ribon.png" alt=""> 
+                    <h3>54</h3>
+                    <p class="some-facts-discript">Awards Winnings</p>
+                 </div>
+                 <div>
+                    <img src="images/icons/projects.png" alt=""> 
+                    <h3>1458</h3>
+                    <p class="some-facts-discript">Project Finished</p>
+                
+                 </div>
+                 <div>
+                    <img src="images/icons/customers.png" alt=""> 
+                    <h3>590</h3>
+                    <p class="some-facts-discript">Clients Worked</p>
+                 </div>
+                 <div>
+                    <img src="images/icons/email.png" alt=""> 
+                    <h3>22578</h3>
+                    <p class="some-facts-discript">Email Send</p>
+                 </div>
             </div>
         </section>
     </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

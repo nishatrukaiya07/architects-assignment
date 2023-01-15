@@ -4,23 +4,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap');
 *{
     margin: 0;
+    padding: 0;
     font-family: 'Work Sans', sans-serif;
-
 }
 
-/* ----------
+
+/* -------------------------
 header and navigation style
-------------- */
-.header{
-   background: rgba(255, 144, 14, 0.1);
-   padding: 30px;
+-------------------------- */
+header{
+  background: rgba(255, 144, 14, 0.1);
+}
+
+.header-container{
    
+   padding: 30px;
+   text-align: center;
+   margin-left: 100px;
+  margin-right: 100px;
+
+}
+.nav-title{
+  /* margin-left: 230px; */
+  /* margin-right: 240px; */
+
 }
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 230px;
-    
 }
 nav ul{
     display: flex;
@@ -29,60 +40,71 @@ nav ul{
 }
 nav li{
     list-style: none;
-
-}
-.nav-title{
-    
-
 }
 
-/* -------------
-  banner styles
-----------------*/
+
+
+/* -------------------
+  header banner styles
+---------------------*/
+
+
+
 .banner{
 
-    /* align-items: center;  */
-    margin:0 ;
+    text-align: center;
     
 }
 
 .banner-info{
-    align-items: center;
     text-align: center;
+    width: 862px;
+    height: 300px;
+    display: inline-block;
 }
 
 .banner-title{
     font-weight: 700;
     font-size: 64px;
     margin: 32px;
+    line-height: 75px;
+    text-align: center;
 }
 
 .banner-discription{
     color: #727272;
     margin: 32px;
 }
-
-.btn{
+.header-btn-container{
+  text-align: center;
+  display: inline-block;
+}
+.primary-btn{
     width: 180px;
     height: 64px;
     border-radius: 8px;
     background: #FF900E;
     color: #ffff;
     border:none;
-    margin: 30px;
-    
+    margin-top: 30px ;
+    text-align: center;
 }
-.banner.img img {
+
+.banner-img {
     height: 700px;
-    width: 440px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 45px;
     
 } 
+    
 
-/* ----------
-quick list section
-------------- */
+/* ----------------
+    feature section
+-------------------*/
 .section-1{
     display: flex;
+    align-items: center;
     padding: 71px ;
 }
 .text-primary-1{
@@ -99,4 +121,35 @@ quick list section
     grid-template-columns: repeat(2,1fr);
     gap: 24px;
 }
+.feature-container{
+  margin-left: 73px;
+}
+.feature-title{
+  margin-bottom: 24px;
+}
+
+/* -----------
+some facts
+------------ */
+.section-3{
+    /* padding: 30px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px; */
+    padding: 71px;
+}
+.some-facts-discript{
+    color: #727272;
+    margin-top: 30px;
+}
+
+.icons{
+    display: flex;
+    gap: 160px;
+    padding: 30px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:70px ;
     
+}
