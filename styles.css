@@ -166,3 +166,27 @@ our sponsors
     gap: 150px;
     margin-top: 50px ;
 }
+.sponsor-discription{
+    color: #727272;
+}
+h3{
+    margin-bottom: 24px;
+    font-weight: 700;
+font-size: 45px;
+}
+
+/* ----------
+footer
+----------- */
+.footer{
+    color: #727272;
+    background-color: #FFF4E7;
+    /* padding: 71px;
+    text-align: center; */
+    padding: 30px;
+    text-align: center;
+    margin-left: 100px;
+   margin-right: 100px;
+   margin-bottom: 100px;
+ 
+}
