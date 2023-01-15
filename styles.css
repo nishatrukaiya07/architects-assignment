@@ -1,0 +1,102 @@
+/*---------
+   font
+--------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap');
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+/* ----------
+header and navigation style
+------------- */
+.header{
+   background: rgba(255, 144, 14, 0.1);
+   padding: 30px;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 230px;
+    
+}
+nav ul{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+
+}
+.nav-title{
+    
+
+}
+
+/* -------------
+  banner styles
+----------------*/
+.banner{
+
+    /* align-items: center;  */
+    margin:0 ;
+    
+}
+
+.banner-info{
+    align-items: center;
+    text-align: center;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 64px;
+    margin: 32px;
+}
+
+.banner-discription{
+    color: #727272;
+    margin: 32px;
+}
+
+.btn{
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #ffff;
+    border:none;
+    margin: 30px;
+    
+}
+.banner.img img {
+    height: 700px;
+    width: 440px;
+    
+} 
+
+/* ----------
+quick list section
+------------- */
+.section-1{
+    display: flex;
+    padding: 71px ;
+}
+.text-primary-1{
+    color: #727272;
+}
+.text-primary-2{
+    color: #000;
+}
+.text-primary-3{
+    color: #FF900E;
+}
+.section-1 .images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+    
